@@ -1,0 +1,78 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{eumat}
+\usepackage[Conny]{fncychap}
+\usepackage[bahasa]{babel}
+
+% Rename Contents
+\addto\captionsenglish{\renewcommand{\contentsname}{\vspace{-0.5cm} \textbf{Daftar Isi} \vspace{-2cm}}}
+
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \begin{center}
+        \vspace*{0,2cm}
+
+        \Huge
+        \textbf{TUGAS APLIKASI KOMPUTER PEKAN 15-16}
+        
+        \vspace{1cm}
+        
+        \LARGE
+        Menggunakan LaTeX dan Markdown untuk Pengolahan Dokumen
+        
+        \vspace{1cm}
+        
+        \includegraphics[width=0.5\textwidth]{logo uny.png}
+
+        \vspace{1cm}
+        
+        \textbf{Rendi Alfahrezi}\\
+        22305144041\\
+        Matematika B 2022
+        
+        \vspace{2cm}
+        
+        \Large
+        \textbf{PRODI MATEMATIKA}\\
+        \textbf{DEPARTEMEN PENDIDIKAN MATEMATIKA}\\
+        \textbf{FAKULTAS MATEMATIKA DAN ILMU PENGETAHUAN ALAM}
+        \textbf{UNIVERSITAS NEGERI YOGYAKARTA}\\
+        \textbf{2023}
+        
+    \end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+
+\chapter{Belajar Menggunakan Software EMT}
+\input{EMT00-FisrtSteps}
+
+\newpage
+\chapter{Menggunakan EMT untuk menyelesaikan masalah-masalah Aljabar}
+\input{Rendi Alfahrezi_22305144041_Pekan 3-4}
+
+\newpage
+\chapter{Menggunakan EMT untuk mengambar grafik 2 dimensi (2D)}
+\input{Rendi Alfahrezi_22305144041_Pekan 5-6}
+
+\newpage
+\chapter{Menggunakan EMT untuk mengambar grafik 3 dimensi (3D)}
+\input{plot 3d}
+
+\newpage
+\chapter{Menggunakan EMT untuk kalkulus}
+\input{Kalkulus}
+
+\newpage
+\chapter{Menggunakan EMT untuk Geometri}
+\input{Geometri}
+
+\newpage
+\chapter{Menggunakan EMT untuk Statistika}
+\input{Statistika}
+
+\end{document}
